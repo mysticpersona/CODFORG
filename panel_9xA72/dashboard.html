@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <h2>Codforg Admin</h2>
+  <button onclick="logout()">Logout</button>
+</nav>
+
+<div class="dashboard">
+
+  <!-- PORTFOLIO -->
+  <div class="card">
+    <h3>Add Portfolio</h3>
+    <input id="portfolioName" placeholder="Project Name">
+    <input id="portfolioTech" placeholder="Technologies Used">
+    <input id="portfolioLink" placeholder="Project URL (https://...)">
+    <input type="file" id="portfolioImage" accept="image/*">
+    <button onclick="addPortfolio()">Add Portfolio</button>
+    <div id="portfolioAdminList"></div>
+  </div>
+
+  <!-- TESTIMONIAL -->
+  <div class="card">
+    <h3>Add Testimonial</h3>
+    <input id="clientName" placeholder="Client Name">
+    <input id="clientRole" placeholder="Client Role">
+    <input id="clientMsg" placeholder="Client Message">
+    <button onclick="addTestimonial()">Add Testimonial</button>
+    <div id="testimonialAdminList"></div>
+  </div>
+
+</div>
+
+<script src="admin.js"></script>
+</body>
+</html>

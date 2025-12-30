@@ -1,0 +1,124 @@
+body {
+  background: #000;
+  color: #e5e5e5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background: #000;
+  border-bottom: 1px solid #222;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard {
+  padding: 40px;
+  display: grid;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  border: 1px solid #222;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #000;
+  border: 1px solid #222;
+  color: #fff;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* ===== ADMIN LOGIN ===== */
+.auth-body {
+  background: #000;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-card {
+  background: #000;
+  border: 1px solid #222;
+  padding: 40px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center;
+  border-radius: 14px;
+}
+
+.login-card h2 {
+  margin-bottom: 8px;
+}
+
+.login-sub {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-bottom: 25px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #000;
+  border: 1px solid #222;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: #fff;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-card button:hover {
+  opacity: 0.9;
+}
+
+.login-footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #9ca3af;
+}
