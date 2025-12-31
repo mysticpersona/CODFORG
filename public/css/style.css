@@ -338,3 +338,141 @@ html {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* ===== GLOBAL DARK THEME ===== */
+body {
+  background: #000;
+  color: #fff;
+}
+
+section {
+  background: #000;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, li, a {
+  color: #fff;
+}
+
+/* Buttons */
+button,
+.btn {
+  background: #fff;
+  color: #000;
+  border: 1px solid #fff;
+}
+
+button:hover,
+.btn:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Cards */
+.card,
+.service-card,
+.portfolio-card,
+.testimonial-card,
+.contact-card {
+  background: #000;
+  border: 1px solid #222;
+  color: #fff;
+}
+
+/* Links */
+a:hover {
+  color: #ccc;
+}
+
+/* ===== MOBILE NAVBAR BRAND LEFT FIX ===== */
+@media (max-width: 768px) {
+  .navbar-brand {
+    margin-left: 0 !important;
+    margin-right: auto;
+    text-align: left;
+  }
+}
+
+/* ===== GLOBAL DARK THEME ===== */
+body {
+  background: #000;
+  color: #fff;
+}
+
+section {
+  background: #000;
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, li, a {
+  color: #fff;
+}
+
+/* Buttons */
+button,
+.btn {
+  background: #fff;
+  color: #000;
+  border: 1px solid #fff;
+}
+
+button:hover,
+.btn:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Cards */
+.card,
+.service-card,
+.portfolio-card,
+.testimonial-card,
+.contact-card {
+  background: #000;
+  border: 1px solid #222;
+  color: #fff;
+}
+
+/* Links */
+a:hover {
+  color: #ccc;
+}
+
+/* ===== HERO BACKGROUND FIX ===== */
+.hero,
+.home,
+.banner-section-bg-container {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .hero,
+  .home,
+  .banner-section-bg-container {
+    background-position: top;
+    min-height: 90vh;
+  }
+}
+
+/* ===== MOBILE NAVBAR FIX ===== */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-left: auto;
+  color: #fff;
+}
+
+/* Desktop reset */
+@media (min-width: 769px) {
+  .navbar-brand {
+    margin-left: 0;
+  }
+}
